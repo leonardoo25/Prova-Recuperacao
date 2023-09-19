@@ -1,0 +1,49 @@
+Algoritmo
+
+from classes import *
+
+def Menu():
+    x = 0
+    while x = 0:
+        int = input("Qual opção deseja?")
+        print("1- Criar Conta")
+        print("2- Sacar")
+        print("3- Depositar")
+        print("4- Transferir")
+        print("5- Retornar o saldo")
+        print("6- Sair")
+
+
+    match conta:
+        case 1:
+            criar_conta()
+            input("Digite seu nome: ")
+            input("Informe o seu CPF: ")
+
+
+        case 2:
+            sacar()
+            y = input("Informe o valor que deseja sacar: ")
+            print(sacar - y)
+    
+
+        case 3:
+            depositar()
+            w = input("Deseja o valor que deseja depositar: ")
+            print(w + depositar)
+        
+
+        case 4: 
+            transferir()
+            input("Digite o valor que deseja Transferir: ")
+
+        
+        case 5:
+            saldo()
+            return saldo
+            print(saldo)
+    
+        
+        case 6:
+            x = 1
+            return Menu
